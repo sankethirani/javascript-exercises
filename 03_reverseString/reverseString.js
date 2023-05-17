@@ -1,11 +1,11 @@
 const reverseString = function(text) {
     //my solution
-    const textArray = text.split("");
-    let reverseText = "";
-    for (i = textArray.length - 1; i >= 0; i--){
-        reverseText += textArray[i];
-    }
-    return reverseText;
+    // const textArray = text.split("");
+    // let reverseText = "";
+    // for (i = textArray.length - 1; i >= 0; i--){
+    //     reverseText += textArray[i];
+    // }
+    // return reverseText;
 
     //better way of doing it
     return text.split("").reverse().join("");
